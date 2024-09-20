@@ -23,7 +23,7 @@ const WebInfo = () => {
           />
         </Link>
         {/* Info Links */}
-        <ul className=" text-[14px]  leading-[20px] flex gap-4 items-center   ">
+        <ul className=" text-[14px]  leading-[20px] hidden lg:flex gap-4 items-center   ">
           <li>
             <Link href="#">Contact Us</Link>
           </li>
@@ -59,7 +59,7 @@ const WebInfo = () => {
           </li>
         </ul>
       </div>
-      <div className=" flex  gap-12 items-center">
+      <div className=" flex  gap-4 lg:gap-12 items-center">
         {/* DropList Languages > UseClient */}
         <button className=" flex items-center gap-2">
           {" "}
@@ -67,7 +67,7 @@ const WebInfo = () => {
             src={language}
             alt=""
           />
-          English
+          <span className=" hidden lg:block">English</span>
           <Image
             src={arrow}
             alt=""
@@ -81,7 +81,7 @@ const WebInfo = () => {
             src={vendor}
             alt=""
           />
-          BECOME A VENDOR
+          <span className=" hidden md:block">BECOME A VENDOR</span>
         </Link>
       </div>
     </div>

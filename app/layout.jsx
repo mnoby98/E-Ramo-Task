@@ -16,9 +16,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`  ${montserrat.className}    antialiased `}>
+      <body
+        className={` overflow-x-hidden  ${montserrat.className}    antialiased `}>
         <Navbar />
-        <main className="   max-w-screen-xl mx-auto ">{children}</main>
+        <main className="    max-w-screen-xl mx-auto ">{children}</main>
         <Footer />
       </body>
     </html>

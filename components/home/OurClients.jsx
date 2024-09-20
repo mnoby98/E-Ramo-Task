@@ -71,7 +71,7 @@ const OurClients = () => {
 
   return (
     <section>
-      <h2 className="text-[20px] mb-10 font-bold text-primary">
+      <h2 className="text-[20px] px-6 md:px-16 lg:px-0 mb-10 font-bold text-primary">
         Our Beloved Clients
       </h2>
       <Slider {...settings}>

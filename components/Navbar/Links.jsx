@@ -13,11 +13,11 @@ const Links = () => {
   return (
     <div className="grid grid-cols-12 items-center text-[20px] font-semibold leading-5 mt-8">
       {/* DropList Button and Pages */}
-      <div className="col-span-7 flex items-center gap-8">
+      <div className=" col-span-3 lg:col-span-7 flex items-center gap-8">
         {/* DropDown List */}
         <CategoriesButton />
         {/* Pages */}
-        <ul className="flex items-center gap-[22px] font-semibold text-[20px] text-[#232323]">
+        <ul className=" hidden lg:flex items-center gap-[22px] font-semibold text-[20px] text-[#232323]">
           <li>
             <Link
               href=""
@@ -49,12 +49,12 @@ const Links = () => {
         </ul>
       </div>
       {/* Search and Notification */}
-      <div className="col-span-5 text-right flex items-center justify-end gap-5">
+      <div className=" col-span-9 lg:col-span-5 text-right flex items-center  justify-between lg:justify-end gap-5">
         {/* Search */}
-        <div className="w-full max-w-[294px] relative">
+        <div className="  min-w-[136px] md:min-w-[277px] lg:w-full max-w-[294px] relative">
           <input
             placeholder="Search your product"
-            className="focus:outline-none placeholder:leading-normal placeholder:text-[#AEA9A9] placeholder:font-medium text-[14px] w-full rounded-[25px] border border-secRed pl-3 pr-9 py-[11px]"
+            className="focus:outline-none placeholder:leading-normal placeholder:text-[#AEA9A9] placeholder:font-medium text-[14px] w-full rounded-[12px] md:rounded-[25px] border border-secRed pl-3 pr-9 py-[11px]"
           />
           <button className="absolute right-3 top-[50%] translate-y-[-50%]">
             <Image
@@ -64,14 +64,15 @@ const Links = () => {
           </button>
         </div>
         {/* Notifications */}
-        <div className="flex gap-2 items-center">
-          <button>
+        <div className="flex gap-2  items-center">
+          <button className=" md:block hidden">
             <Image
               src={noification}
               alt=""
               className="h-5 w-5"
             />
           </button>
+
           <StickBorder />
           <button>
             <Image
@@ -80,8 +81,10 @@ const Links = () => {
               className="h-5 w-5"
             />
           </button>
-          <StickBorder />
-          <button>
+          <div className=" md:block hidden">
+            <StickBorder />
+          </div>
+          <button className=" md:block hidden">
             <Image
               src={reload}
               alt=""
@@ -89,13 +92,13 @@ const Links = () => {
             />
           </button>
           <StickBorder />
-          <button className="w-[120px] flex items-center justify-end gap-2 text-[12px]">
+          <button className="lg:w-[120px] flex items-center justify-end gap-2 text-[12px]">
             <Image
               src={user}
               alt=""
               className="h-5 w-5"
             />
-            Hello, Log in
+            <span className="lg:block hidden">Hello, Log in</span>
           </button>
         </div>
       </div>

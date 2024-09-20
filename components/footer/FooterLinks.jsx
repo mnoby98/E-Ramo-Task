@@ -44,7 +44,7 @@ const FooterLinks = () => {
         <h2 className=" text-white mb-8  font-semibold text-[20px] leading-6">
           Store Infomation
         </h2>
-        <ul className=" text-treGray">
+        <ul className=" text-[14px] md:text-[16px] text-treGray">
           <li className="mb-3 flex items-start gap-2">
             <Image
               src={location}
@@ -52,7 +52,7 @@ const FooterLinks = () => {
             />
             <Link
               href={"#"}
-              className=" font-medium  text-[16px] leading-6">
+              className=" font-medium   leading-6">
               Megashop - Demo Store
               <br /> 570 - Union Trade Center
             </Link>
@@ -64,7 +64,7 @@ const FooterLinks = () => {
             />
             <Link
               href={"#"}
-              className=" font-medium   text-[16px] leading-6">
+              className=" font-medium     leading-6">
               + 02 1300000000
             </Link>
           </li>
@@ -75,7 +75,7 @@ const FooterLinks = () => {
             />
             <Link
               href={"#"}
-              className=" font-medium  text-[16px] leading-6">
+              className=" font-medium    leading-6">
               contact@bellout.com
             </Link>
           </li>

@@ -11,8 +11,8 @@ import Social from "../footer/Social";
 const Footer = () => {
   return (
     <footer className=" bg-primary  pt-8 ">
-      <div className="     max-w-screen-xl mx-auto">
-        <div className="flex  gap-[153px]">
+      <div className="    lg:px-0 px-6 md:px-16  lg:max-w-screen-xl mx-auto">
+        <div className=" grid grid-cols-2 lg:flex  flex-wrap md:gap-10 lg:gap-[153px]">
           {/* logo */}
           <Image
             src={logo}
@@ -22,8 +22,8 @@ const Footer = () => {
           {/* Links */}
           <FooterLinks />
         </div>
-        <div className="flex    gap-[375px]">
-          <div className=" flex gap-[130px]">
+        <div className="flex   flex-wrap md:gap-10 lg:gap-[375px]">
+          <div className=" grid grid-cols-2 lg:flex   md:gap-[130px]">
             <MobileStore />
             <Social />
           </div>

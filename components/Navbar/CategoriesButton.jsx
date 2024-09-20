@@ -21,23 +21,26 @@ const CategoriesButton = () => {
   return (
     <div className="relative">
       <button
-        className="text-[16px] flex items-center gap-4 bg-secRed rounded-[12px] py-[12px] px-5 text-white"
+        className="text-[16px] flex items-center justify-center lg:justify-normal gap-4 bg-secRed rounded-sm lg:rounded-[12px] w-10 h-10 lg:w-fit lg:h-fit lg:py-[12px] lg:px-5 text-white"
         onClick={() => setIsDropdownOpen(!isDropdownOpen)}>
         <Image
           src={list}
           alt=""
+          className=" w-6 h-6  "
         />
-        Browse Category
-        <Image
-          src={arrow}
-          alt=""
-          className={`transform ${
-            isDropdownOpen ? "rotate-180" : ""
-          } transition-transform`}
-        />
+        <span className="hidden lg:flex gap-4">
+          Browse Category{" "}
+          <Image
+            src={arrow}
+            alt=""
+            className={`transform ${
+              isDropdownOpen ? "rotate-180" : ""
+            } transition-transform`}
+          />
+        </span>
       </button>
       {isDropdownOpen && (
-        <div className="absolute top-full left-0 w-full bg-white border border-gray-200 rounded-b-md shadow-lg z-10">
+        <div className="absolute top-full left-0 w-fit lg:w-full bg-white border border-gray-200 rounded-b-md shadow-lg z-10">
           <ul className="pt-9 pb-2">
             {categories.map((category, index) => (
               <li

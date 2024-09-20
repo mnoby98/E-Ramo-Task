@@ -8,7 +8,7 @@ import youtube from "@/public/footer/youtube.png";
 const Social = () => {
   return (
     <div className="  mt-[30px]">
-      <button className=" mb-[29px] text-[20px] leading-6 text-white font-bold py-4 px-[21px] w-[232px] rounded-[40px] border border-[#FFC436]">
+      <button className=" mb-[29px] text-[16px] md:text-[20px] leading-6 text-white font-bold py-4 px-[21px] md:w-[232px] rounded-[40px] border border-[#FFC436]">
         Become a Vendor
       </button>
       <ul className="flex  items-center gap-3">
