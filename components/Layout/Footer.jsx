@@ -22,7 +22,7 @@ const Footer = () => {
           {/* Links */}
           <FooterLinks />
         </div>
-        <div className="flex    gap-[350px]">
+        <div className="flex    gap-[375px]">
           <div className=" flex gap-[130px]">
             <MobileStore />
             <Social />
