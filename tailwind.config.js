@@ -7,9 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ["var(--font-montserrat)", "sans-serif"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#232323",
+        secRed: "#E30613",
+        treGray: "#CFCFCF",
       },
     },
   },
