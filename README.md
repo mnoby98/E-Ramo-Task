@@ -1,4 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Front-End Developer Task
+
+## Project Overview
+
+This project is a simple **homepage** built using **Next.js**, **React Slick**, and **Tailwind CSS**. The page consists of:
+
+- A responsive **Navbar**.
+- A **Client Logos** section displayed as a swipeable carousel.
+- A **Footer** for basic information.
+
+The project is deployed and accessible live on [Vercel](https://e-ramo-task-omega.vercel.app/).
+
+## Tech Stack
+
+- **Next.js**: Framework for React applications with server-side rendering.
+- **React Slick**: A responsive and swipeable carousel for client logos.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Vercel**: Deployment platform for serverless applications.
+
+## Features
+
+1. **Navbar**:
+
+   - Responsive navigation bar.
+   - Includes basic links for navigation.
+
+2. **Client Logos Carousel**:
+
+   - Swipeable client logos using **React Slick**.
+   - The logos are displayed with smooth transitions and responsive behavior.
+
+3. **Footer**:
+   - Simple footer with basic information and layout.
+
+## Getting Started
+
+### Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   [git clone https://github.com/your-username/repo-name.git](https://github.com/mnoby98/E-Ramo-Task.git)
+   ```
 
 ## Getting Started
 
@@ -20,17 +63,4 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thanks.
