@@ -6,7 +6,7 @@ import logo from "@/public/navbar/logo.png";
 import mail from "@/public/navbar/mail.svg";
 import phone from "@/public/navbar/phone.svg";
 import vendor from "@/public/navbar/vendor.svg";
-import arrow from "@/public/navbar/downarrow.svg";
+import arrow from "@/public/navbar/arrowdown.svg";
 import language from "@/public/navbar/language.svg";
 import StickBorder from "../common/StickBorder";
 
