@@ -25,7 +25,7 @@ const WebInfo = () => {
         {/* Info Links */}
         <ul className=" text-[14px]  leading-[20px] flex gap-4 items-center   ">
           <li>
-            <Link href="#ContactUs">Contact Us</Link>
+            <Link href="#">Contact Us</Link>
           </li>
           <StickBorder />
 
@@ -75,7 +75,7 @@ const WebInfo = () => {
         </button>
         {/* BECOME A VENDOR */}
         <Link
-          href="#BECOMEAVENDOR"
+          href="#"
           className="flex gap-3 items-center px-1 py-[6px] bg-secRed rounded-[5px] text-white">
           <Image
             src={vendor}
