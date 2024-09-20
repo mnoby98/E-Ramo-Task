@@ -13,9 +13,9 @@ import StickBorder from "../common/StickBorder";
 
 const Links = () => {
   return (
-    <div className=" grid grid-cols-2 items-center     text-[20px] font-semibold leading-5 mt-8">
+    <div className="  grid grid-cols-12 items-center     text-[20px] font-semibold leading-5 mt-8">
       {" "}
-      <div className=" col-span-1 flex items-center gap-8">
+      <div className="  col-span-7  flex items-center gap-8">
         {/* DropDown List */}
         <button className=" text-[16px]   flex items-center gap-4 bg-secRed rounded-[12px] py-[12px] px-5 text-white">
           {" "}
@@ -30,7 +30,7 @@ const Links = () => {
           />
         </button>
         {/* Pages */}
-        <ul className=" flex items-center gap-[22px]  text-[#232323]  ">
+        <ul className=" flex items-center gap-[22px] font-semibold text-[20px]  text-[#232323]  ">
           {/* Active Link */}
           <li>
             <Link
@@ -62,7 +62,7 @@ const Links = () => {
           </li>
         </ul>
       </div>
-      <div className=" col-span-1   text-right flex  items-center justify-end gap-8">
+      <div className=" col-span-5   text-right flex  items-center justify-end gap-8">
         {/* Search */}
         <div className=" w-full max-w-[294px] relative">
           <input
