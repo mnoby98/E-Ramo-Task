@@ -15,6 +15,7 @@ const Links = () => {
   return (
     <div className="  grid grid-cols-12 items-center     text-[20px] font-semibold leading-5 mt-8">
       {" "}
+      {/* DropList Button and Pages */}
       <div className="  col-span-7  flex items-center gap-8">
         {/* DropDown List */}
         <button className=" text-[16px]   flex items-center gap-4 bg-secRed rounded-[12px] py-[12px] px-5 text-white">
@@ -62,7 +63,8 @@ const Links = () => {
           </li>
         </ul>
       </div>
-      <div className=" col-span-5   text-right flex  items-center justify-end gap-8">
+      {/* Search and Notification */}
+      <div className=" col-span-5   text-right flex  items-center justify-end gap-5">
         {/* Search */}
         <div className=" w-full max-w-[294px] relative">
           <input
